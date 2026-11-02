@@ -37,7 +37,7 @@ User=llamafile
 Group=llamafile
 WorkingDirectory=/opt/llamafile
 Environment=HOME=/opt/llamafile
-ExecStart=/bin/sh -c 'exec /opt/llamafile/model.llamafile --server --host 192.168.56.101 --port 8080'
+ExecStart=/bin/sh -c 'exec /opt/llamafile/model.llamafile --server --host 192.168.100.138 --port 8080'
 Restart=always
 RestartSec=3
 
